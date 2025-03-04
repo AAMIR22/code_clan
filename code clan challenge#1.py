@@ -1,10 +1,12 @@
 #A quick note
+# This code is designed to calculate your age
 # In this challenge, used datetime modules to work with dates & exception handling
 # Defined a function
 # We used the strptime from datetime to convert the string in to a date time object
 # datetime.now() to get the current date
 # Then calculated the difference and adjust it for negative years,months or dates
-# Additionally, added a birthday wishes for the same dates
+# Additionally, added birthday wishes if the current date matches your birth date.
+# Happy coding guys!!
 
 from datetime import datetime
 
